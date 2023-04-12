@@ -1,0 +1,28 @@
+:root {
+  --primary-bg: #f00;
+  --secondry-bg: #0000ff;
+  --primary-text: #696969;
+  --secondry-text: #fff;
+  --header-bg: #f0ceff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  color: var(--primary-text);
+  background: var(--primary-bg);
+  font-size: 50px;
+}

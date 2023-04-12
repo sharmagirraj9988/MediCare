@@ -1,0 +1,33 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo img {
+  padding: 25px 0;
+}
+
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.menu li {
+  margin: 0 20px;
+  font-size: 16px;
+}
+.menu a {
+  color: var(--header-text);
+}
+.menu .menu li:nth-child(n+1):hover a {
+  color: var(--slider-text);
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
